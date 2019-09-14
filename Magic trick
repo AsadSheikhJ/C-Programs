@@ -1,0 +1,56 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,sub,conti;
+    char y,n,Y,N;
+    
+    bool trick= true;
+    
+    while(trick==true)
+    {
+    cout<<"Enter Any Four Number"<<endl;
+    cin>>a;
+    sub=a-2;
+    cout<<"The Number You Entered: "<<a<<endl;
+    cout<<"The Answer Will Be: "<<"2"<<sub<<endl;
+    cout<<endl<<endl;
+    cout<<"Enter Any four Number numbers again"<<endl;
+    cin>>b;
+    cout<<"Enter Any four numbers One more Time"<<endl;
+    cin>>c;
+    if(a,b,c>=1000 && a,b,c<=9999)
+    {
+    cout<<endl<<endl;
+    cout<<"Now Displaying values and Answer With Adjusted values and in sequence"<<endl;
+    cout<<"First Numbers:   "<<a<<endl;
+    cout<<"Second Numbers:  "<<b<<endl;
+    cout<<"Some Adjustment: "<<9999-b<<endl;
+    cout<<"Third Numbers:   "<<c<<endl;
+    cout<<"Some Adjustment: "<<9999-c<<endl;
+    cout<<"                ------"<<endl;
+    cout<<"Answer Was:      2"<<sub<<endl;
+    cout<<endl<<endl;
+    }
+    else{
+        cout<<endl;
+        cout<<"The Input Range must be four Numbers"<<endl;
+        cout<<endl;
+        
+    }
+    cout<<"Do you Wish to continue Again?"<<endl;
+    cout<<"1.Yes"<<endl<<"2.No"<<endl;
+    cin>>conti;
+    if(conti==2)
+    {
+        trick=false;
+        
+    }
+       
+        
+    }
+
+    return 0;
+}
